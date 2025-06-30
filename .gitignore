@@ -1,0 +1,16 @@
+# Ambiente Virtual
+# Nunca suba a pasta do ambiente virtual para o Git
+venv/
+.venv/
+env/
+.env/
+
+# Arquivos de Cache e compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
