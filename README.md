@@ -45,6 +45,7 @@ Você verá:
 ```
 🧠 Bem-vindo ao DevSecReflection (CLI Seguro)
 ```
+![image](https://github.com/user-attachments/assets/bec7f959-cfce-4f20-98df-5973aa6288d4)
 
 ---
 
