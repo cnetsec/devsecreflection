@@ -1,6 +1,6 @@
-# 🧠 DevSecReflection (CLI Seguro) -
+# 🧠 DevSecReflection (CLI Seguro) 
 
-DISCLAIMER :  Lembrando que é o Cenário Hipotético(Não Homologado) Recomendado não utilizar em produção.
+DISCLAIMER :  Lembrando que é o Cenário Hipotético(Não Homologado) Recomendado não utilizar em produção. 
 
 **DevSecReflection** é uma ferramenta para desenvolvedores refletirem sobre segurança ao implementar novas funcionalidades. Ela faz perguntas guiadas e gera uma análise com base nas respostas, usando a API do Gemini da Google.
 
