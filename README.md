@@ -1,4 +1,4 @@
-# 🧠 DevSecReflection (CLI Seguro) 
+# 🧠 DevSecReflection (CLI) 
 
 DISCLAIMER :  Lembrando que é o Cenário Hipotético(Não Homologado) Recomendado não utilizar em produção. 
 
