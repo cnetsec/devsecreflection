@@ -48,6 +48,46 @@ Você verá:
 
 ---
 
+## ⚙️ Criando a pasta `.vscode/` com execução automática
+
+Caso a pasta `.vscode/` ainda não exista no seu projeto, você pode criá-la manualmente e adicionar o arquivo `tasks.json` com a configuração abaixo:
+
+### 📁 Passos:
+
+1. Na raiz do projeto, crie a pasta `.vscode`
+2. Dentro dela, crie o arquivo `tasks.json`
+3. Cole o conteúdo abaixo:
+
+```json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🧠 Run DevSecReflection",
+      "type": "shell",
+      "command": "${workspaceFolder}\venv\Scripts\python.exe",
+      "args": [
+        "${workspaceFolder}\devsecreflection_cli.py"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
+```
+
+---
+
 ## 🔐 Segurança
 
 - Todas as perguntas usam menus fechados
